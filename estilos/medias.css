@@ -1,6 +1,6 @@
 @charset "UTF8";
 /* Versão para celulares */
-@media  screen and (min-width: 481px) and (max-width: 768px){
+@media  screen and (min-width: 320px) and (max-width: 480px){
     body,html{
         width: 100vw;
         height: 100vh;
