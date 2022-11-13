@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html{
+    background-color: #180c241f;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #180c241f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > div.esquerda {
+    width: 60vw;
+    height: 100vh;
+    background-color: #180C24;
+    display: flex;
+    flex-direction: column;   
+    
+}
+
+div.esquerda> h1{
+    color: #63FEBD;
+    text-align: left;
+    text-indent: 25px;
+    font-size: 2.6em;
+    margin-top: 30px;
+}
+
+div.esquerda>h2{
+    color: #63FEBD;
+    text-align: left;
+    text-indent: 25px;
+    font-size: 2.6em;
+    
+}
+
+ 
+img.foto-astronauta{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+
+
+
+
+
+main > div.direita{
+    width: 40vw;
+    height: 100vh;
+    background-color: #180C24;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+
+}
+
+div> form.card-login{
+    background-color: #2D2044;
+    width: 55%;
+    height: 40%;
+    border-radius: 12px;
+}
+
+form.card-login> h1{
+    color: #63FEBD;
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    padding: 30px 0px;
+
+}
+
+ form> label > p{
+    color: rgba(255, 255, 255, 0.801);
+    padding: 10px;
+}
+
+input::placeholder {
+    text-indent: 7px;
+    color: rgba(255, 255, 255, 0.801);
+}
+
+form > input[type=email], input[type=password] {
+    background-color: #57456C;
+    width: 92%;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+
+
+div.botao{
+    
+    margin-top: 30px;
+}
+
+div> input[type=button]{
+    background-color: #00ff4cf5;
+    width: 90%;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
