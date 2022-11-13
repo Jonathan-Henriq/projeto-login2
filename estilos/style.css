@@ -10,6 +10,8 @@
 
 body, html{
     background-color: #180c241f;
+    max-height: 100%;
+    overflow: hidden;
 }
 
 main{
