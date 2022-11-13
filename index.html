@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilos/style.css">
     <title>Login</title>
     
 <body>
@@ -17,14 +17,14 @@
             <!-- aqui vai a imagem-->
         </div>
         <div class="direita">
-            <form class="card-login" action="login.php" method="post">
+            <form class="card-login" action="login.php" method="post" autocomplete="on">
                 <h1>Login</h1>
                 <label for="isuario"><p>Usuário:</p></label>
-                <input type="email" name="usuario" id="isuario" placeholder="Digite aqui seu usuário">
+                <input type="email" name="usuario" id="isuario" placeholder="Digite aqui seu usuário" required minlength="15" maxlength="40" autocomplete="email">
                 <label for="isenha"><p>Senha:</p></label>
-                <input type="password" name="senha" id="isenha" placeholder="Min 6 caracteres">
+                <input type="password" name="senha" id="isenha" placeholder="Min 6 caracteres"  required maxlength="20" minlength="6" autocomplete="current-password">
                 <div class="botao">
-                    <input type="button" value="Login">
+                    <input type="submit" value="Login">
                 </div>
                     
                 

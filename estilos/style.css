@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Sriracha&display=swap');
 
 *{
     padding: 0;
@@ -32,7 +33,8 @@ main > div.esquerda {
 div.esquerda> h1{
     color: #63FEBD;
     text-align: left;
-    text-indent: 25px;
+    text-indent: 35px;
+    padding-left: 50px;
     font-size: 2.6em;
     margin-top: 30px;
 }
@@ -40,15 +42,16 @@ div.esquerda> h1{
 div.esquerda>h2{
     color: #63FEBD;
     text-align: left;
-    text-indent: 25px;
+    text-indent: 35px;
+    padding-left: 50px;
     font-size: 2.6em;
     
 }
 
  
 img.foto-astronauta{
-    width: 80%;
-    height: 80%;
+    width: 85%;
+    height: 89%;
     margin: auto;
 }
 
@@ -79,11 +82,12 @@ div> form.card-login{
 
 form.card-login> h1{
     color: #63FEBD;
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
     font-size: 2.2em;
     margin-bottom: 10px;
     padding: 30px 0px;
-
+    
 }
 
  form> label > p{
@@ -98,13 +102,20 @@ input::placeholder {
 
 form > input[type=email], input[type=password] {
     background-color: #57456C;
+    color: white;
     width: 92%;
     height: 35px;
     display: block;
+    text-indent: 7px;
     margin: 0 auto;
     border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px  #63febd8e;
 
 }
+
+
 
 
 div.botao{
@@ -112,11 +123,18 @@ div.botao{
     margin-top: 30px;
 }
 
-div> input[type=button]{
-    background-color: #00ff4cf5;
+div> input[type=submit]{
+    background-color: #00ff4cfd;
     width: 90%;
     height: 40px;
     display: block;
     margin: 0 auto;
     border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+div > input[type=submit]:hover{
+    background-color: #dcff19;
+
 }
